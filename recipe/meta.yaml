@@ -26,8 +26,7 @@ build:
 
 requirements:
   build:
-    - python       # [win]
-    - toolchain
+    - {{ compiler(c') }}
     - cmake
 
 test:
