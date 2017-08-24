@@ -14,7 +14,7 @@ build:
 
 requirements:
   build:
-    - toolchain
+    - {{ compiler(c') }}
     - cmake
     - zlib 1.2.*
     - snappy
