@@ -17,11 +17,11 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - cmake
-    - zlib 1.2.*
+  host:
+    - zlib
     - snappy
   run:
     - snappy
-    - zlib 1.2.*
 
 test:
   commands:
