@@ -11,8 +11,10 @@ cmake -G "Unix Makefiles" \
       -DBUILD_SHARED=1 \
       -DBUILD_TESTS=1 \
       -DBUILD_BENCHMARKS=0 \
+      CMAKE_CXX=${CXX} \
+      CMAKE_CC=${CC} \
       "${SRC_DIR}"
 
-cmake --build .
+cmake --build . -- VERBOSE=1
 ctest
 cmake --build . --target install
