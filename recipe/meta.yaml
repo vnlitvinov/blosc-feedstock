@@ -29,6 +29,9 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - cmake
+  host:
+    - zlib
+    - snappy
 
 test:
   requires:
