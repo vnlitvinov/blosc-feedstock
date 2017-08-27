@@ -15,6 +15,6 @@ cmake -G "Unix Makefiles" \
       CMAKE_CC=${CC} \
       "${SRC_DIR}"
 
-cmake --build . -- VERBOSE=1
+cmake --build .
 ctest
 cmake --build . --target install
