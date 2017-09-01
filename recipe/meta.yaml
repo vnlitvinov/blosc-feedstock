@@ -36,6 +36,14 @@ about:
   license: BSD 3-Clause
   license_file: LICENSES/BLOSC.txt
   summary: 'A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`'
+  description: |
+    Blosc is a high performance compressor optimized for binary data. It has been designed to transmit 
+    data to the processor cache faster than the traditional, non-compressed, direct memory fetch approach
+    via a memcpy() OS call. Blosc is the first compressor (that I'm aware of) that is meant not only to 
+    reduce the size of large datasets on-disk or in-memory, but also to accelerate memory-bound computations.
+  doc_url: 
+  dev_url: https://github.com/Blosc/c-blosc
+  doc_source_url: 
 
 extra:
   recipe-maintainers:
