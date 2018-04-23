@@ -23,7 +23,7 @@ if %ERRORLEVEL% neq 0 exit 1
 cmake --build . --config Release
 if %ERRORLEVEL% neq 0 exit 1
 
-ctest -C reelase
+ctest -C release
 if %ERRORLEVEL% neq 0 exit 1
 
 cmake --build . --target INSTALL --config Release
