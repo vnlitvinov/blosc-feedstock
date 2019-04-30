@@ -23,6 +23,8 @@ requirements:
   host:
     - msinttypes                                     # [win and vc<14]
     - zlib
+    - lz4-c
+    - zstd
     - snappy
 
 test:

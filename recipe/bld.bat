@@ -17,6 +17,7 @@ cmake -G "NMake Makefiles" ^
       -DPREFER_EXTERNAL_SNAPPY:BOOL=ON ^
       -DPREFER_EXTERNAL_LZ4:BOOL=ON ^
       -DPREFER_EXTERNAL_ZLIB:BOOL=ON ^
+      -DPREFER_EXTERNAL_ZSTD:BOOL=ON ^
       "%SRC_DIR%"
 if %ERRORLEVEL% neq 0 exit 1
 

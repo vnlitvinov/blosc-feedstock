@@ -14,6 +14,7 @@ cmake -G "Unix Makefiles" \
       -DPREFER_EXTERNAL_SNAPPY:BOOL=ON \
       -DPREFER_EXTERNAL_LZ4:BOOL=ON \
       -DPREFER_EXTERNAL_ZLIB:BOOL=ON \
+      -DPREFER_EXTERNAL_ZSTD:BOOL=ON \
       CMAKE_CXX=${CXX} \
       CMAKE_CC=${CC} \
       "${SRC_DIR}"
