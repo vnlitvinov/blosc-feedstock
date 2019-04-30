@@ -1,9 +1,9 @@
 setlocal EnableDelayedExpansion
 
 mkdir build
-if errorlevel 1 exit 1
+if %ERRORLEVEL% neq 0 exit 1
 cd build
-if errorlevel 1 exit 1
+if %ERRORLEVEL% neq 0 exit 1
 
 cmake -G "NMake Makefiles" ^
       -DCMAKE_BUILD_TYPE:STRING="Release" ^
