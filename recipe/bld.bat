@@ -29,7 +29,3 @@ if %ERRORLEVEL% neq 0 exit 1
 
 cmake --build . --target INSTALL --config Release
 if %ERRORLEVEL% neq 0 exit 1
-
-del %LIBRARY_BIN%\msvc*.dll
-del %LIBRARY_BIN%\Microsoft.*
-move %LIBRARY_LIB%\blosc.dll %LIBRARY_BIN%\
