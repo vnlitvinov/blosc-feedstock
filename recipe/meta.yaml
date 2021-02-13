@@ -25,7 +25,6 @@ requirements:
     - zlib
     - lz4-c
     - zstd
-    - snappy
 
 test:
   commands:
