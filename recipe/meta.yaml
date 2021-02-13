@@ -23,7 +23,7 @@ requirements:
   host:
     - msinttypes                                     # [win and vc<14]
     - zlib
-    - lz4-c
+    - lz4-c                                          # [unix]
     - zstd
 
 test:
