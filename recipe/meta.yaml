@@ -9,7 +9,7 @@ source:
   sha256: b0ef4fda82a1d9cbd11e0f4b9685abf14372db51703c595ecd4d76001a8b342d
 
 build:
-  number: 0
+  number: 1
   run_exports:
     # nothing on abi-lab.  Going with default behavior.
     - {{ pin_subpackage('blosc') }}
